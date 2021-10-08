@@ -3,3 +3,12 @@
 margin-left: 40px;
 margin-right: 40px;
 }
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.fondo{
+    background-image: url(/img/banner\ fondo1.webp);
+}

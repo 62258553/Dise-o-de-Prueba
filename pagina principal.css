@@ -1,0 +1,66 @@
+* {
+    
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background: url(imagenes/fondomadera.jpg);
+    background-size: 100%;
+    
+  }
+  header {
+    max-width: 1100px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
+background: rgb(228,245,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(228,245,252,1) 0%, rgba(191,232,249,1) 50%, rgba(159,216,239,1) 51%, rgba(42,176,237,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+
+  }
+  h1 {
+    float: left;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+  }
+  .logo {
+    float: right;
+    margin-top: 18px;
+    margin-left: 190px;
+    animation: 1s logo;
+  }
+  .menu-h {
+    max-width: 1100px;
+    min-height: 50px;
+    background: rgb(10, 10, 10);
+    margin: 0 auto;
+  }
+  .menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .menu-h a {
+    color: whitesmoke;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    background: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .menu-h ul ul {
+    display: none;
+    position: absolute;
+  }
+  .menu-h ul li:hover ul {
+    display: block;
+  }
+  .menu-h a:hover {
+    background: rgba(109, 195, 226, 0.733);
+  }
+ 

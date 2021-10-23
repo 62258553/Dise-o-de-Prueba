@@ -1,0 +1,41 @@
+{
+    "sku": {
+        "name": "GP_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 2
+    },
+    "kind": "v12.0,user,vcore",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Online",
+        "databaseId": "56512a62-8119-433b-a52a-629f90013214",
+        "creationDate": "2021-10-23T22:24:12.083Z",
+        "currentServiceObjectiveName": "GP_Gen5_2",
+        "requestedServiceObjectiveName": "GP_Gen5_2",
+        "defaultSecondaryLocation": "westus",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "licenseType": "LicenseIncluded",
+        "maxLogSizeBytes": 68719476736,
+        "earliestRestoreDate": "2021-10-23T22:26:24Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 2
+        },
+        "currentBackupStorageRedundancy": "Zone",
+        "requestedBackupStorageRedundancy": "Zone",
+        "maintenanceConfigurationId": "/subscriptions/d298770c-fb4e-49ec-9db0-65eb6bb2bd78/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false
+    },
+    "location": "eastus",
+    "tags": {},
+    "id": "/subscriptions/d298770c-fb4e-49ec-9db0-65eb6bb2bd78/resourceGroups/DefaultResourceGroup-CQ/providers/Microsoft.Sql/servers/paloma/databases/3.publica_paloma",
+    "name": "3.publica_paloma",
+    "type": "Microsoft.Sql/servers/databases"
+}

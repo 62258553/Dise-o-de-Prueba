@@ -1,0 +1,64 @@
+{
+    "name": "2.publicapaloma",
+    "id": "/subscriptions/d298770c-fb4e-49ec-9db0-65eb6bb2bd78/resourceGroups/DefaultResourceGroup-CQ/providers/Microsoft.Compute/virtualMachines/2.publicapaloma",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "brazilsouth",
+    "properties": {
+        "vmId": "99b2136a-92b7-4aef-9455-aec4d8e5fce8",
+        "hardwareProfile": {
+            "vmSize": "Standard_D4s_v3"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "canonical",
+                "offer": "0001-com-ubuntu-server-focal",
+                "sku": "20_04-lts-gen2",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "2.publicapaloma_OsDisk_1_ac90294c0695445db4e087d4eeec7d51",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/d298770c-fb4e-49ec-9db0-65eb6bb2bd78/resourceGroups/DefaultResourceGroup-CQ/providers/Microsoft.Compute/disks/2.publicapaloma_OsDisk_1_ac90294c0695445db4e087d4eeec7d51"
+                },
+                "diskSizeGB": 30
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "2.publicapaloma",
+            "adminUsername": "azureuser",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": true,
+                "ssh": {
+                    "publicKeys": [
+                        {
+                            "path": "/home/azureuser/.ssh/authorized_keys",
+                            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3gYH80REfz/PavpBrI/VoF4pQ\r\nj70Rsznh8++TrZNWDhHopyl5iAa9cVFEfFeIEHLSXpc6KNmB0ZPRVabzjX2y00Rl\r\nL9CgIx4wOdmZaKGwoodvvTF2H8iv+kkHMCk0eJbNeCuSPnKAsMski3CKx8r7emsT\r\nKT2pxf/A8obydowhSI5lMvx/3TP9JJE7ZcSYI2ebKIjFFWY6AkDn8kUeIVeS0zic\r\nNbR5dwJDrFbBon2GTia/1xNg1Wjm3UU8cIWPv8EvWhjVKcTM1AR4v+TBrW89ZwYS\r\n/FMc7APziBXzHTVeofWj1T59xi1D7hh7AvPhhgJVu2ki1uf1bVPsIYBnr0IWDDi9\r\nNmAmbXgI3BsWrB8YTwMXdyktEgkgZgSCqrxiDEq/uKLc9gju4ATbXmZQTJqZ9nYz\r\nvGv6Mqhm5ntiCCW7dX3sAk87rjRUOkAKzn0lEIXIzq4tUWT1gPkG+83X8unpw5n/\r\nydKkVUkvRmvCQ6pLuNT+IPyqWRmc4pQx9ezaR1U= generated-by-azure\r\n"
+                        }
+                    ]
+                }
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/d298770c-fb4e-49ec-9db0-65eb6bb2bd78/resourceGroups/DefaultResourceGroup-CQ/providers/Microsoft.Network/networkInterfaces/2.publicapaloma645"
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        },
+        "provisioningState": "Succeeded"
+    },
+    "zones": [
+        "3"
+    ]
+}
